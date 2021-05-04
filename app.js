@@ -9,10 +9,10 @@ setInterval( () => {
 
   console.clear()
 
-  console.log('|========================')
+  console.log('|===========================')
   console.log(`| Memória Usada: ${(tmem - fmem)} MB`)
   console.log(`| Memória Livre: ${fmem} MB`)
   console.log(`| Memória Total: ${tmem} MB`)
-  console.log('|========================')
+  console.log('|===========================')
 
 }, 1000)
